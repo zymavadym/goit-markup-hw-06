@@ -818,9 +818,15 @@ address {
     height: 40px;
     border-radius: 4px;
     margin-bottom: 10px;
+    margin-top: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     background-color: transparent;
     padding-left: 15px;
+}
+
+.modal-input:hover,
+.modal-input:focus {
+    border-color: var(--brand-light-blue);
 }
 
 .modal-input::placeholder {
@@ -828,10 +834,18 @@ address {
     color: rgba(117, 117, 117, 0.5);
 }
 
+.icon-modal-form {
+    color: #000;
+    position: absolute;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
 .modal-input-comment {
     padding-left: 16px;
 }
-
 
 
 
