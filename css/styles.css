@@ -702,11 +702,11 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-white);
+    font-weight: 700;
 }
 
 .footer-social {
     margin-left: 70px;
-    padding-top: 12px;
 }
 
 .footer-social-list {
@@ -746,7 +746,6 @@ address {
 .footer-share-form {
     display: block;
     margin-left: auto;
-    padding-top: 12px;
 }
 
 .footer-share-div {
@@ -822,10 +821,12 @@ address {
 
 .boxes-footer {
     display: flex;
+    align-items: baseline;
 }
 
 .container-footer {
-    align-items: baseline;
+    /* align-items: baseline; */
+    /* display: flex; */
 }
 
 .div-footer {
@@ -870,6 +871,7 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
     fill: var(--brand-dark);
 }
 
