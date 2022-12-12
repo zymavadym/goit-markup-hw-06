@@ -824,11 +824,6 @@ address {
     align-items: baseline;
 }
 
-.container-footer {
-    /* align-items: baseline; */
-    /* display: flex; */
-}
-
 .div-footer {
     display: block;
 }
